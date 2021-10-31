@@ -123,13 +123,14 @@ body {
   color: #333333;
 }
 
-.frame117 #oneMore {
+.frame117 #oneMore a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
   line-height: 24px;
   color: #dc624e;
+  text-decoration: none;
 }
 
 .left-line {
