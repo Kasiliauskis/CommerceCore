@@ -160,6 +160,21 @@ body {
 }
 /* Iki cia gerai */
 
-.group1790 {
+.section1790 .group1790 {
   background: #ffffff;
+  border: 1px solid #e9d6c5;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.section1790 h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #dc624e;
+  margin: 28.46px auto 7.66px auto;
 }
