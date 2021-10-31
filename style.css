@@ -42,23 +42,43 @@ body {
   border-radius: 6px;
 }
 
-#lygiavimas {
+#productCh {
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
   padding: 0;
   margin: 23px auto 16px;
 }
+
+#product1 {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 23px auto 0;
+}
+
+#product2 {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 22px auto 0;
+}
 /* Iki cia gerai */
 
-#lygiavimas img{
+#productCh img,
+#product1 img,
+#product2 img{
   width: 35.14px;
   height: 35.24px;
   background: url(.png), url(.png), url(.png);
   filter: drop-shadow(0px 0px 17px rgba(255, 255, 255, 0.1));
 }
 
-#lygiavimas li {
+#productCh li,
+#product1 li,
+#product2 li {
   display: flex;
   font-family: Roboto;
   font-style: normal;
@@ -68,8 +88,10 @@ body {
   color: #333333;
 }
 
-#lygiavimas li b {
-  display: flex;
+#productCh li b,
+#product1 li b,
+#product2 li b {
+  /* display: flex; */
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -78,8 +100,10 @@ body {
   color: #333333;
 }
 
-#lygiavimas li i {
-  display: flex;
+#productCh li i,
+#product1 li i,
+#product2 li i {
+  /* display: flex; */
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
