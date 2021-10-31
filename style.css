@@ -6,7 +6,7 @@
 }
 body {
   background-color: #ffffff;
-  font-family: roboto;
+  font-family: Roboto;
   font-size: 20px;
   /* padding: 50px; */
 }
@@ -15,9 +15,23 @@ body {
   background: #f8f1eb;
   border-radius: 0px;
 }
+.left-side h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #dc624e;
+}
 
 .frame117 {
   background: #ffffff;
+  background: #ffffff;
+  border: 1px solid #e9d6c5;
+  box-sizing: border-box;
+  border-radius: 6px;
 }
 
 #lygiavimas {
