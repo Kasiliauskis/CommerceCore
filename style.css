@@ -178,3 +178,24 @@ body {
   color: #dc624e;
   margin: 28.46px auto 7.66px auto;
 }
+
+.group1790 h3 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  margin: 16px auto 0;
+}
+
+.group1790 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bdbdbd;
+  margin: 4px auto 0;
+
+}
