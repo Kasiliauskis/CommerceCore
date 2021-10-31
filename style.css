@@ -26,6 +26,10 @@ body {
   text-transform: capitalize;
 }
 
+#lygiavimas li {
+  display: flex;
+}
+
 .left-line {
   width: 591px;
   height: 1px;
