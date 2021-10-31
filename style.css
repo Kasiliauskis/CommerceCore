@@ -42,6 +42,41 @@ body {
 
 #lygiavimas li {
   display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+#lygiavimas li b {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+#lygiavimas li i {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.frame117 #oneMore {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  color: #dc624e;
 }
 
 .left-line {
