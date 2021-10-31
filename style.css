@@ -65,11 +65,20 @@ body {
   padding: 0;
   margin: 22px auto 0;
 }
+
+#product3 {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 22px auto 23px;
+}
 /* Iki cia gerai */
 
 #productCh img,
 #product1 img,
-#product2 img{
+#product2 img,
+#product3 img {
   width: 35.14px;
   height: 35.24px;
   background: url(.png), url(.png), url(.png);
@@ -78,7 +87,8 @@ body {
 
 #productCh li,
 #product1 li,
-#product2 li {
+#product2 li,
+#product3 li {
   display: flex;
   font-family: Roboto;
   font-style: normal;
@@ -90,7 +100,8 @@ body {
 
 #productCh li b,
 #product1 li b,
-#product2 li b {
+#product2 li b,
+#product3 li b {
   /* display: flex; */
   font-family: Roboto;
   font-style: normal;
@@ -102,7 +113,8 @@ body {
 
 #productCh li i,
 #product1 li i,
-#product2 li i {
+#product2 li i,
+#product3 li i {
   /* display: flex; */
   font-family: Roboto;
   font-style: normal;
