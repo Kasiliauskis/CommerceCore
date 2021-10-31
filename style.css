@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+body {
+  background-color: #ffffff;
+  font-family: roboto;
+  font-size: 20px;
+  /* padding: 50px; */
+}
+
+.pink {
+  background: #f8f1eb;
+  border-radius: 0px;
+}
+
+.frame117 {
+  background: #ffffff;
+}
+
+#lygiavimas {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.left-line {
+  width: 591px;
+  height: 1px;
+  /* background: #f2f2f2; */
+  background: black;
+}
+
+.group1790 {
+  background: #ffffff;
+}
