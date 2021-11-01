@@ -158,7 +158,6 @@ body {
   color: #ffffff;
   padding: 12px 44px 12px 45px;
 }
-/* Iki cia gerai */
 
 .section1790 .group1790 {
   background: #ffffff;
@@ -197,5 +196,33 @@ body {
   line-height: 16px;
   color: #bdbdbd;
   margin: 4px auto 0;
-
 }
+
+.section1790 .names-row {
+  margin: 16px 0;
+}
+
+.section1790 .name-form1 {
+  padding: 0;
+  margin-right: 8px;
+}
+
+.section1790 .name-form2 {
+  padding: 0;
+  margin-left: 8px;
+}
+
+/* All forms fonts*/
+.section1790 .form-control {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+  padding: 12px;
+}
+
+/* Iki cia gerai */
