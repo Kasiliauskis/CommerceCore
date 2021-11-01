@@ -11,6 +11,7 @@ body {
   /* padding: 50px; */
 }
 
+/*left side background*/
 .pink {
   background: #f8f1eb;
   border-radius: 0px;
@@ -202,17 +203,7 @@ body {
   margin: 16px 0;
 }
 
-.section1790 .name-form1 {
-  padding: 0;
-  margin-right: 8px;
-}
-
-.section1790 .name-form2 {
-  padding: 0;
-  margin-left: 8px;
-}
-
-/* All forms fonts*/
+/* All forms text fonts*/
 .section1790 .form-control {
   font-family: Roboto;
   font-style: normal;
@@ -225,4 +216,51 @@ body {
   padding: 12px;
 }
 
+/*first name form*/
+.section1790 .name-form1 {
+  width: 288px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 0;
+  margin-right: 8px;
+}
+
+/*last name form*/
+.section1790 .name-form2 {
+  width: 288px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 0;
+  margin-left: 8px;
+}
+
+/*Email form*/
+.group1790 .email-form {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 18px;
+}
+
+.group1790 .address-form {
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 16px 0;
+}
+
+.group1790 .city-form {
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 16px;
+}
 /* Iki cia gerai */
+
