@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -23,7 +24,7 @@
             <div class="container">
               <ul id="productCh">
                 <li><img src="images/img1.png" alt="img1" /></li>
-                <li><b>3x</b>CoreProduct<i>®</i></li>
+                <li><b>3x</b>&nbsp;CoreProduct<i>®</i></li>
                 <li id="oneMore">
                   <a href="#">Change</a>
                 </li>
@@ -31,17 +32,17 @@
               <div class="left-line"></div>
               <ul id="product1">
                 <li><img src="images/img1.png" alt="img1" /></li>
-                <li><b>1x</b> CoreProduct<i>®</i></li>
+                <li><b>1x</b>&nbsp;CoreProduct<i>®</i></li>
                 <li><b>$19.99</b></li>
               </ul>
               <ul id="product2">
                 <li><img src="images/img1.png" alt="img1" /></li>
-                <li><b>2x</b>CoreProduct<i>®</i></li>
+                <li><b>2x</b>&nbsp;CoreProduct<i>®</i></li>
                 <li><b>$29.99</b></li>
               </ul>
               <ul id="product3">
                 <li><img src="images/img1.png" alt="img1" /></li>
-                <li><b>3x</b>CoreProduct<i>®</i></li>
+                <li><b>3x</b>&nbsp;CoreProduct<i>®</i></li>
                 <li><b>$39.99</b></li>
               </ul>
               <div class="d-grid gap-2 d-md-flex justify-content-md-end button">
@@ -49,7 +50,6 @@
                   Save changes
                 </button>
               </div>
-              <!-- iki cia gerai -->
             </div>
           </div>
 
@@ -121,34 +121,112 @@
                 <div class="row g-2">
                   <div class="col-md">
                     <div class="form-floating">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="floatingInputGrid"
-                        placeholder="name@example.com"
-                        value="mdo@example.com"
-                      />
-                      <label for="floatingInputGrid">Email address</label>
+                      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <option selected>Select</option>
+                        <option value="1">Lietuva</option>
+                      </select>
+                      <label for="floatingSelectGrid">*Country</label>
                     </div>
                   </div>
                   <div class="col-md">
                     <div class="form-floating">
-                      <select
-                        class="form-select"
-                        id="floatingSelectGrid"
-                        aria-label="Floating label select example"
-                      >
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <option selected>Select</option>
+                        <option value="1">Vilnius</option>
+                        <option value="2">Kaunas</option>
+                        <option value="3">Klaipeda</option>
                       </select>
-                      <label for="floatingSelectGrid">Works with selects</label>
+                      <label for="floatingSelectGrid">*Region/State</label>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="col postal-code">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="*Postal code"
+                        aria-label="First name"
+                      />
                     </div>
                   </div>
                 </div>
+
+
                 <h3>Payment Method</h3>
+                
                 <p>All Transactions are secure and encrypted</p>
+
+                <div class="container">
+                  <h3>Credit Card</h3>
+                </div>
+
+
+                <div class="container">
+                  <form class="row g-3">
+                    <div class="col-md-4">
+                      <label for="validationServer01" class="form-label">First name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationServer02" class="form-label">Last name</label>
+                      <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationServerUsername" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                        <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationServer03" class="form-label">City</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                      <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationServer04" class="form-label">State</label>
+                      <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                      </select>
+                      <div id="validationServer04Feedback" class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationServer05" class="form-label">Zip</label>
+                      <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                      <div id="validationServer05Feedback" class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                          Agree to terms and conditions
+                        </label>
+                        <div id="invalidCheck3Feedback" class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form>
+                </div>
 
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary" type="button">Button</button>
