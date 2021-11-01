@@ -213,6 +213,8 @@ body {
   display: flex;
   align-items: center;
   color: #bdbdbd;
+  border: 1px solid #e0e0e0;
+
   padding: 12px;
 }
 
@@ -221,7 +223,6 @@ body {
   width: 288px;
   height: 48px;
   background: #ffffff;
-  border: 1px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 3px;
   padding: 0;
@@ -233,7 +234,6 @@ body {
   width: 288px;
   height: 48px;
   background: #ffffff;
-  border: 1px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 3px;
   padding: 0;
@@ -243,24 +243,53 @@ body {
 /*Email form*/
 .group1790 .email-form {
   background: #ffffff;
-  border: 1px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 3px;
   margin-bottom: 18px;
 }
 
+/*Address form*/
 .group1790 .address-form {
-  border: 1px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 3px;
   margin: 16px 0;
 }
 
+/*City form*/
 .group1790 .city-form {
-  border: 1px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 3px;
   margin-bottom: 16px;
+}
+
+/*Country, Region & Postal-code forms*/
+.group1790 .form-select {
+  height: 48px;
+  width: 202px;
+  color: #bdbdbd;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+  padding: 20px 40px 4px 12px;
+}
+
+.group1790 .form-floating label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.group1790 .postal-code .form-control {
+  width: 156px;
+  height: 48px;
 }
 /* Iki cia gerai */
 
