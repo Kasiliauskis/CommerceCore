@@ -291,5 +291,75 @@ body {
   width: 156px;
   height: 48px;
 }
-/* Iki cia gerai */
 
+.group1790 .payment-frame117 {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 15px auto 29px;
+}
+
+.group1790 .form-check {
+  margin: 18px auto 16px;
+}
+
+/* .group1790 .form-check input {
+  color: red;
+} */
+
+.group1790 .form-check label {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.group1790 .payment-line {
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.group1790 .frame1738 {
+  background: #fafafa;
+  padding: 17px 15px 16px;
+}
+.group1790 .card-form input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+}
+
+.group1790 .order-button button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background: #dc624e;
+  box-shadow: 0px 4px 10px rgba(67, 40, 16, 0.24);
+  border-radius: 3px;
+  padding: 16px 0;
+}
+
+/* Iki cia gerai */
