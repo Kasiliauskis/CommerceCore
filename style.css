@@ -159,6 +159,9 @@ body {
   color: #ffffff;
   padding: 12px 44px 12px 45px;
 }
+.left-side .section1790 {
+  margin-bottom: 129px;
+}
 
 .section1790 .group1790 {
   background: #ffffff;
@@ -362,8 +365,6 @@ body {
   padding: 16px 0;
 }
 
-/* Iki cia gerai */
-
 .group1790 .security-logo {
   display: flex;
   justify-content: center;
@@ -375,16 +376,14 @@ body {
   width: 87.5px;
   height: 49px;
   object-fit: cover;
-  /* object-fit: contain; */
-  /* object-fit: scale-down; */
+  margin: 0 2px;
 }
 
 .group1790 .security-logo #verisign img,
 .group1790 .security-logo #mcafee img {
   width: 91px;
   height: 49px;
-  /* object-fit: cover; */
   object-fit: scale-down;
-  /* object-fit: contain; */
   margin: 0 2px;
 }
+/* Iki cia gerai */
