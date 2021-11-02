@@ -374,10 +374,17 @@ body {
 .group1790 .security-logo #comodo img {
   width: 87.5px;
   height: 49px;
+  object-fit: cover;
+  /* object-fit: contain; */
+  /* object-fit: scale-down; */
 }
 
 .group1790 .security-logo #verisign img,
 .group1790 .security-logo #mcafee img {
   width: 91px;
   height: 49px;
+  /* object-fit: cover; */
+  object-fit: scale-down;
+  /* object-fit: contain; */
+  margin: 0 2px;
 }
