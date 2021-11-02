@@ -363,3 +363,21 @@ body {
 }
 
 /* Iki cia gerai */
+
+.group1790 .security-logo {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0 21px;
+}
+
+.group1790 .security-logo #norton img,
+.group1790 .security-logo #comodo img {
+  width: 87.5px;
+  height: 49px;
+}
+
+.group1790 .security-logo #verisign img,
+.group1790 .security-logo #mcafee img {
+  width: 91px;
+  height: 49px;
+}
