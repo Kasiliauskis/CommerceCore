@@ -431,6 +431,10 @@ body {
   color: #333333;
 }
 
+.right-side .total-price {
+  height: 28px;
+}
+
 .right-side .product-price-cell {
   padding-top: 25px;
 }
@@ -447,6 +451,7 @@ body {
 
 .right-side .price-cell {
   height: 24px;
+  padding-top: 5px;
 }
 
 .right-side .price-cell p {
@@ -478,24 +483,24 @@ body {
 }
 /* Iki cia gerai */
 
-.right-side .guarantee-area {
+.white-area .guarantee-area {
+  padding: 0 12px;
+}
+
+.white-area .guarantee-row {
   border: 1px solid #e0e0e0;
   box-sizing: border-box;
   border-radius: 3px;
+  margin-top: 26px;
 }
 
-.right-side #product6 {
-  padding: 0;
-  display: flex;
-}
-
-.right-side #product6 img {
+.white-area .guarantee-logo img {
   width: 48px;
   height: 48px;
   object-fit: contain;
 }
 
-.right-side #product6 h3 {
+.white-area .guarantee-text h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -507,7 +512,7 @@ body {
   color: #333333;
 }
 
-.right-side .guarantee-area p {
+.white-area .guarantee-row p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
