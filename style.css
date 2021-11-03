@@ -386,7 +386,6 @@ body {
   object-fit: scale-down;
   margin: 0 2px;
 }
-/* Iki cia gerai */
 
 .white-area {
   padding: 88px 120px 0 94px;
@@ -404,35 +403,80 @@ body {
   margin-bottom: 24px;
 }
 
-.right-side #product4 {
+.right-side .order-summary {
+  height: 72px;
   display: flex;
-  justify-content: space-between;
-  padding: 0;
   margin-bottom: 27px;
 }
 
-.right-side #product5 {
-  display: flex;
-  padding: 0;
-  justify-content: space-between;
-  margin-bottom: 26px;
+.right-side .img-cell {
+  width: 100px;
 }
 
-.right-side #product4 li,
-.right-side #product5 li {
-  display: flex;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #333333;
-}
-
-.right-side #product4 img {
+.right-side .img-cell img {
   width: 72px;
   height: 72px;
 }
+
+.right-side .product-cell {
+  padding: 25px 2px;
+}
+
+.right-side .product-cell p {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+.right-side .product-price-cell {
+  padding-top: 25px;
+}
+
+.right-side .product-price-cell b {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #000000;
+}
+
+.right-side .price-cell {
+  height: 24px;
+}
+
+.right-side .price-cell p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #828282;
+}
+
+.right-side .usd-price i {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.right-side .usd-price b {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #333333;
+}
+/* Iki cia gerai */
 
 .right-side .guarantee-area {
   border: 1px solid #e0e0e0;
