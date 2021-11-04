@@ -422,7 +422,8 @@ body {
   padding: 25px 2px;
 }
 
-.right-side .product-cell p {
+.right-side .product-cell p,
+.right-side .product-cell i {
   font-family: Roboto;
   font-style: normal;
   font-size: 16px;
