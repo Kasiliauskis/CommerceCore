@@ -32,7 +32,7 @@ body {
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: #dc624e;
-  margin-bottom: 0;
+  margin-bottom: 7.66px;
 }
 
 .frame117 {
@@ -42,8 +42,6 @@ body {
   box-sizing: border-box;
   border-radius: 6px;
 }
-
-/* perdaryta nuo cia  */
 
 .pasition-one {
   margin: 16px 0;
@@ -107,7 +105,6 @@ body {
   height: 18px;
   padding: 0;
 }
-/* iki cia gerai */
 
 .left-line {
   height: 1px;
@@ -276,15 +273,49 @@ body {
   margin: 15px auto 29px;
 }
 
-.group1790 .form-check {
-  margin: 18px auto 16px;
+.payment-method ul {
+  padding: 0;
+  margin-top: 5px;
 }
 
-/* .group1790 .form-check input {
-  color: red;
-} */
+.payment-method li {
+  display: inline-block;
+}
 
-.group1790 .form-check label {
+.payment-method #text {
+  padding-left: 6px;
+}
+
+.payment-method img {
+  width: 12px;
+  height: 16px;
+}
+
+.payment-frame117 .cards-container {
+  padding: 0 15px;
+}
+
+.payment-frame117 .cards-row .point-img {
+  align-self: center;
+  padding-left: 24;
+  width: 20px;
+}
+
+.cards-row .point-img img {
+  width: 20px;
+  height: 20px;
+}
+
+.cards-row .cards img {
+  margin: 17px 3px 16px;
+}
+
+.cards-row .credit-card {
+  display: flex;
+  align-self: center;
+}
+
+.cards-row .credit-card p {
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
@@ -299,15 +330,20 @@ body {
   margin: 0px 8px;
 }
 
-.group1790 .payment-line {
-  height: 1px;
-  background: #e0e0e0;
+.cards-row .cards a {
+  text-decoration: none;
+}
+
+.cards-row .cards img {
+  width: 35.84px;
+  height: 21.44px;
 }
 
 .group1790 .frame1738 {
   background: #fafafa;
   padding: 17px 15px 16px;
 }
+
 .group1790 .card-form input {
   font-family: Roboto;
   font-style: normal;
@@ -359,6 +395,8 @@ body {
   object-fit: scale-down;
   margin: 0 2px;
 }
+
+/* desine puse */
 
 .white-area {
   padding: 88px 120px 0 94px;
@@ -510,4 +548,3 @@ body {
   padding: 0 24px 24px 24px;
   margin: 0%;
 }
-/* Iki cia gerai */
