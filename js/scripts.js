@@ -4,3 +4,6 @@ function myFunction() {
     w.document.write('<h1>Privacy — Terms</h2>');
     w.document.close();
   }
+
+
+document.querySelector(.button)
